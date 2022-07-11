@@ -44,8 +44,8 @@ inboxid = inboxjson['id']
 print(inbox)
 print(inboxid)
 
-driver.find_element_by_xpath('/html/body/div[6]/div[2]/div[2]/div[1]/div/form/div[6]/div/input').send_keys(inbox)
-driver.find_element_by_xpath('/html/body/div[6]/div[2]/div[2]/div[1]/div/form/div[7]/div/input').send_keys("GoodPASS123!")
+driver.find_element_by_xpath('/html/body/div[6]/div[2]/div[2]/div[1]/div/form/div[6]/div/input').send_keys(inbox) #Enters Email
+driver.find_element_by_xpath('/html/body/div[6]/div[2]/div[2]/div[1]/div/form/div[7]/div/input').send_keys("GoodPASS123!") #Enters Password
 time.sleep(1)
 driver.find_element_by_xpath('/html/body/div[6]/div[2]/div[2]/div[1]/div/form/div[8]/div/button').click()
 
